@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: #50e3c2;
+}
+.containers-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 80px;
+	margin: 100px;
+	padding: 20px;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+.logo{
+	width: 300px;
+	height: 150px;
+}
+.grid-p1{
+	font-size: 30px;
+	margin-top: 150px;
+	font-weight: bold;
+}
+.grid-p1 span, .grid-p2 span{
+	text-decoration: underline;
+}
+.grid-p2{
+	font-size: 50px;
+	color: white;
+}
+.grid-img{
+	width: 60%;
+}
+.logo-box{
+	background-color: white;
+	min-height: 150px;
+	width: 70%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
