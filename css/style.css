@@ -45,6 +45,10 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition-duration: 0.7s;
+}
+.logo-box:hover{
+	border-radius: 20px;
 }
 .backgroundk{
 	height: 100vh;
